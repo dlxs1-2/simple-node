@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
   res.end('Hello world\n');
 });
 
-setInterval(console.log("Devlouix!"),3000);
+setInterval(console.log("Devlouixa!"),3000);
 
 server.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
